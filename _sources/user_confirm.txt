@@ -1,0 +1,33 @@
+.. |app_info_img| image:: /img/info.jpg
+  :alt: お知らせ
+
+.. |app_login_img| image:: /img/afc_login.jpg
+  :alt: アプリからサイトログイン
+
+.. |app_confirm1_img| image:: /img/app_confirm1.jpg
+  :alt: スマホサイトでの確認
+
+.. |app_confirm2_img| image:: /img/smph37.jpg
+  :alt: スマホサイトでの確認
+
+.. |app_confirm3_img| image:: /img/kakunin.jpg
+  :alt: スマホサイトでの確認
+
+確認画面への移動方法
+  アプリで交通費記録を開始すると、メッセージが自動で届きます。
+  アプリのメニュー > お知らせ に記載されているメッセージ内のURLをタップすると、ウェブブラウザが開き、
+  「交通費自動計算」のページに飛び、ログイン画面になります。
+
+   |app_info_img|
+
+
+確認画面へのログイン
+  ログインIDはあらかじめ入力済みです。アプリと同じ「パスワード」を入力してログインしてください。
+  「GPS Punch! 交通費」の確定画面に移動します。
+
+   |app_login_img|
+
+  .. note::
+  
+    最初に表示される「最新の交通費計算がある月」のページが「ホーム画面」です。
+

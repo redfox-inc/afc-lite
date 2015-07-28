@@ -1,0 +1,17 @@
+
+.. |mng_afcuser1_img| image:: /img/riyosya1.jpg
+  :alt: 初期画面
+
+.. |mng_afcuser2_img| image:: /img/riyosya2.jpg
+  :alt: メンバー一覧画面
+
+交通費利用者設定を見る
+  メニューバーから「ユーザー管理」をクリックすると、ユーザーの一覧画面になります。
+   
+  |mng_afcuser1_img| この画面の各ユーザーの「計算設定」をクリックすると、メンバーが自分で設定した交通費利用者設定を見ることができます。
+
+|
+|
+
+  
+  |mng_afcuser2_img| 設定については :ref:`afc_settings` に記載しています。

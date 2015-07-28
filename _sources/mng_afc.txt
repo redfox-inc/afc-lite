@@ -1,0 +1,39 @@
+
+.. |mng_afc1_img| image:: /img/kotuhi1.jpg
+  :alt: 初期画面
+
+.. |mng_afc3_img| image:: /img/kotuhi3.jpg
+  :alt: メンバー一覧画面
+
+.. |mng_afc_cancel_img| image:: /img/chp2_5.jpg
+  :alt: 承認解除画面  
+
+
+  
+.. |mng_afc5_img| image:: /img/kotuhi5.jpg
+  :alt: 交通費承認画面
+
+交通費承認画面を見る
+  メニューバー一番左の、「交通費承認」をクリックすると、交通費承認画面になります。
+ 
+  |mng_afc1_img| 
+
+|
+|
+
+  検索条件を設定して、申請者を絞り込むことができます。
+  交通費申請の内訳を見るには、一番右の「詳細」をクリックします。
+  
+  |mng_afc3_img| 
+
+|
+|
+  
+交通費申請を承認する
+  メンバーが交通費を確定させているとカレンダー表示が緑になります。内容を確認して承認します。
+  
+  |mng_afc5_img| 
+  
+|
+
+  承認後に解除することもできます。|mng_afc_cancel_img| 

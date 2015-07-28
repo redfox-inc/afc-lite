@@ -1,0 +1,223 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>5．よくある質問 &mdash; afc 1.0.0 ドキュメント</title>
+    
+    <link rel="stylesheet" href="_static/help.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <script type="text/javascript" src="_static/jquery.balloon.js"></script>
+    <script type="text/javascript" src="_static/jquery.smooth-scroll.min.js"></script>
+    <script type="text/javascript" src="_static/help.js"></script>
+    <script type="text/javascript" src="_static/jquery.cookie.js"></script>
+    <script type="text/javascript" src="_static/cloud.js"></script>
+    <link rel="top" title="afc 1.0.0 ドキュメント" href="index.html" />
+    <link rel="prev" title="4．高度な使い方" href="chap4.html" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="relbar-top">
+        
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             accesskey="I">索引</a></li>
+        <li class="right" >
+          <a href="chap4.html" title="4．高度な使い方"
+             accesskey="P">前へ</a> &nbsp; &nbsp;</li>
+    <li><a href="index.html">afc 1.0.0 ドキュメント</a> &raquo;</li>
+ 
+      </ul>
+    </div>
+    </div>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+<div class="section" id="id1">
+<h1>5．よくある質問<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<div class="section" id="id2">
+<h2>駅の優先度について<a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<blockquote>
+<div><p><strong>Q1.</strong>  会社から2つの駅が利用できるが、どこへ行く時も近い駅からのルートとなってしまい、事実を反映しない。</p>
+<p><strong>A1.</strong>  駅の候補は位置情報により最も近い駅を優先して表示します。実際に利用した駅を選んで、当日分の交通費を確定すると学習機能が働き、翌日からはよく選んでいる駅が優先されるようになります。</p>
+<dl class="docutils">
+<dt>対処方法</dt>
+<dd>交通費を修正をして確定してください。その後は学習機能が働きます。</dd>
+</dl>
+</div></blockquote>
+</div>
+<div class="section" id="id3">
+<h2>徒歩での移動<a class="headerlink" href="#id3" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<blockquote>
+<div><p><strong>Q2.</strong>  歩いて移動したのに、電車に乗ったとみなされてしまった。</p>
+<p><strong>A2.</strong>  16分以上同じ場所にとどまる→500メートル以上移動する→16分以上同じ場所に留まるというような記録がされると、「電車移動があった」とみなして交通費計算を行います。</p>
+<dl class="docutils">
+<dt>対処方法</dt>
+<dd>交通費上の <a class="reference internal" href="glossary.html#term-15"><em class="xref std std-term">移動</em></a> を削除してください。</dd>
+</dl>
+</div></blockquote>
+</div>
+<div class="section" id="id4">
+<h2>電車以外の公共交通手段<a class="headerlink" href="#id4" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<blockquote>
+<div><p><strong>Q3.</strong>  タクシーで移動したのに、電車で遠回りして目的地まで行ったという計算になってしまう。</p>
+<p><strong>A3.</strong>  現在の機能では、移動記録から交通費を自動計算できるのは電車のみとなっております。</p>
+<dl class="docutils">
+<dt>対処方法</dt>
+<dd>自動で作成された移動を削除して、手動で「電車以外」の移動を追加してください。</dd>
+</dl>
+</div></blockquote>
+<hr class="docutils" />
+<blockquote>
+<div><p><strong>Q4.</strong>  途中からバスで移動した分が計算されていない。</p>
+<p><strong>A4.</strong>  現在の機能では、移動記録から交通費を自動計算できるのは「電車」（特急や新幹線を含む）となっております。</p>
+<dl class="docutils">
+<dt>対処方法</dt>
+<dd>自動で作成された移動を削除して、手動で電車の移動と電車以外の移動を２つに分けて追加してください。</dd>
+</dl>
+</div></blockquote>
+</div>
+<div class="section" id="id5">
+<h2>直行・直帰の交通費計算<a class="headerlink" href="#id5" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<blockquote>
+<div><p><strong>Q5.</strong>  直行直帰の交通費計算とは何ですか？</p>
+<dl class="docutils">
+<dt><strong>A5.</strong>  「交通費記録を開始」を押した時に、 <a class="reference internal" href="glossary.html#term-16"><em class="xref std std-term">自宅最寄り駅</em></a> からその場所までの <a class="reference internal" href="glossary.html#term-15"><em class="xref std std-term">移動</em></a> を作成します。</dt>
+<dd><dl class="first last docutils">
+<dt>「交通費記録を終了」を押した時は、その場所から <a class="reference internal" href="glossary.html#term-16"><em class="xref std std-term">自宅最寄り駅</em></a> までの <a class="reference internal" href="glossary.html#term-15"><em class="xref std std-term">移動</em></a> を作成します。</dt>
+<dd>これらは <a class="reference internal" href="glossary.html#term-17"><em class="xref std std-term">直行直帰の設定</em></a> をすることで計算されるようになります。</dd>
+</dl>
+</dd>
+</dl>
+</div></blockquote>
+<hr class="docutils" />
+<blockquote>
+<div><p><strong>Q6.</strong>  直行直帰の移動が事実と異なり、途中の駅までの計算しかされていない。</p>
+<p><strong>A6.</strong>  電車で移動中に「交通費記録を開始」を押すと、押した地点の最寄り駅を「到着駅」「出発駅」として交通費が計算されます。</p>
+<dl class="docutils">
+<dt>対処方法</dt>
+<dd><ul class="first last simple">
+<li>「交通費記録を開始」は乗車前、「交通費記録を終了」は降車後に押すようにしてください。</li>
+<li>乗車中の打刻が必要な場合は、記録をあとで修正してください。</li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+<hr class="docutils" />
+<blockquote>
+<div><p><strong>Q7.</strong>  直行直帰の移動交通費が計算されない日がある。</p>
+<p><strong>A7.</strong>  <a class="reference internal" href="glossary.html#term-18"><em class="xref std std-term">直行直帰の計算をしないパターン</em></a> に当てはまる場合は、交通費を計算しません。</p>
+<dl class="docutils">
+<dt>対処方法</dt>
+<dd>上記仕様をご理解の上、適切なタイミングで「交通費記録を開始」「交通費記録を終了」を押すようにしてください。</dd>
+</dl>
+</div></blockquote>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+        <p class="logo"><a href="index.html" title="index">
+          <img class="logo" src="_static/gpsp_logo.jpg" alt="Logo"/>
+        </a></p>
+  <h3><a href="index.html">交通費自動計算マニュアル</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">5．よくある質問</a><ul>
+<li><a class="reference internal" href="#id2">駅の優先度について</a></li>
+<li><a class="reference internal" href="#id3">徒歩での移動</a></li>
+<li><a class="reference internal" href="#id4">電車以外の公共交通手段</a></li>
+<li><a class="reference internal" href="#id5">直行・直帰の交通費計算</a></li>
+</ul>
+</li>
+</ul>
+
+  <div class="sphinxprev">
+    <h4>Previous page</h4>
+    <p class="topless"><a href="chap4.html"
+                          title="Previous page">&larr; 4．高度な使い方</a></p>
+  </div>
+<div id="searchbox" style="display: none">
+  <h3>クイック検索</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="検索" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    キーワードを入力して検索ボタンを押してください
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-36034455-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="relbar-bottom">
+        
+    <div class="related">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             >索引</a></li>
+        <li class="right" >
+          <a href="chap4.html" title="4．高度な使い方"
+             >前へ</a> &nbsp; &nbsp;</li>
+    <li><a href="index.html">afc 1.0.0 ドキュメント</a> &raquo;</li>
+ 
+      </ul>
+    </div>
+    </div>
+
+    <div class="footer">
+        &copy; Copyright 2015 redfox, Inc. All Rights Reserved..
+      このドキュメントは <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3 で生成しました。
+    </div>
+    <!-- cloud_sptheme 1.4 -->
+  </body>
+</html>
