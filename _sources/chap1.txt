@@ -6,6 +6,7 @@
 ==============
 
 .. |auto_route_img| image:: /img/1-1.jpg
+  :scale: 80%
   :alt: 全体の流れ
 
 .. |input_img| image:: /img/chp1_2.jpg
@@ -20,7 +21,6 @@
 - 交通費自動計算の流れ
 
   |auto_route_img|
-|
 
   .. list-table:: 上記の詳細説明
    :widths: 15, 100

@@ -36,4 +36,5 @@
   
 |
 
-  承認後に解除することもできます。|mng_afc_cancel_img| 
+  承認後に解除することもできます。|mng_afc_cancel_img|
+

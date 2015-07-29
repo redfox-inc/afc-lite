@@ -8,7 +8,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>2. 管理者の使い方 &mdash; afc 1.0.0 ドキュメント</title>
+    <title>2. 管理者の使い方 &mdash; raku 1.0.0 ドキュメント</title>
     
     <link rel="stylesheet" href="_static/help.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -32,7 +32,7 @@
     <script type="text/javascript" src="_static/help.js"></script>
     <script type="text/javascript" src="_static/jquery.cookie.js"></script>
     <script type="text/javascript" src="_static/cloud.js"></script>
-    <link rel="top" title="afc 1.0.0 ドキュメント" href="index.html" />
+    <link rel="top" title="raku 1.0.0 ドキュメント" href="index.html" />
     <link rel="next" title="3．ユーザーの操作方法" href="chap3.html" />
     <link rel="prev" title="1. はじめに" href="chap1.html" /> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,7 +52,7 @@
         <li class="right" >
           <a href="chap1.html" title="1. はじめに"
              accesskey="P">前へ</a> &nbsp; &nbsp;</li>
-    <li><a href="index.html">afc 1.0.0 ドキュメント</a> &raquo;</li>
+    <li><a href="index.html">raku 1.0.0 ドキュメント</a> &raquo;</li>
  
       </ul>
     </div>
@@ -67,7 +67,7 @@
 <div class="section" id="id1">
 <h1>2. 管理者の使い方<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">¶</a></h1>
 <div class="section" id="id2">
-<h2>2-1. 使用を始める<a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2>2-1.使用を始める<a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <div class="section" id="id3">
 <h3>開通メール<a class="headerlink" href="#id3" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <blockquote>
@@ -173,8 +173,14 @@
 <p>グループ名とグループコードを登録する</p>
 <blockquote>
 <div><ul class="simple">
-<li>①上の2ヶ所に、任意のグループコードとグループ名を入力します。</li>
-<li>②他の場所は設定を変えずに「登録」ボタンを押します。</li>
+<li><ol class="first arabic">
+<li>上の2ヶ所に、任意のグループコードとグループ名を入力します。</li>
+</ol>
+</li>
+<li><ol class="first arabic" start="2">
+<li>他の場所は設定を変えずに「登録」ボタンを押します。</li>
+</ol>
+</li>
 </ul>
 <p><img alt="グループ画面2について" src="_images/group2.jpg" /></p>
 <div class="admonition note">
@@ -353,7 +359,32 @@
 </div>
 </div>
 <div class="section" id="id14">
-<h2>2-7. 交通費のデータを出力する<a class="headerlink" href="#id14" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2>2-7. メンバーの設定権限を変更する<a class="headerlink" href="#id14" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<dl class="docutils">
+<dt>メンバーの設定権限を変更する</dt>
+<dd><p class="first">メニューバーから「管理者設定」をクリックすると、管理者設定画面になります。</p>
+<p><img alt="権限画面" src="_images/afc_perm.jpg" /></p>
+<p>メンバーに定期券情報や現金/ICカードの変更をさせるかどうかを以下のように変更できます。</p>
+<blockquote class="last">
+<div><blockquote>
+<div><ul class="simple">
+<li>システム管理者だけが変更する</li>
+<li>ユーザー自身で変更する</li>
+</ul>
+</div></blockquote>
+<div class="admonition note">
+<p class="first admonition-title">注釈</p>
+<p class="last">個別設定はできません。全員で一つの設定となります。</p>
+</div>
+</div></blockquote>
+</dd>
+</dl>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="id15">
+<h2>2-8. 交通費のデータを出力する<a class="headerlink" href="#id15" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <dl class="docutils">
 <dt>交通費のデータを出力する</dt>
 <dd><p class="first">交通費の申請・承認のデータをCSV出力して、エクセルなどで閲覧・加工することができます。
@@ -379,7 +410,7 @@
   <h3><a href="index.html">交通費自動計算マニュアル</a></h3>
   <ul>
 <li><a class="reference internal" href="#">2. 管理者の使い方</a><ul>
-<li><a class="reference internal" href="#id2">2-1. 使用を始める</a><ul>
+<li><a class="reference internal" href="#id2">2-1.使用を始める</a><ul>
 <li><a class="reference internal" href="#id3">開通メール</a></li>
 <li><a class="reference internal" href="#id4">ログイン</a></li>
 <li><a class="reference internal" href="#id5">管理画面</a></li>
@@ -395,7 +426,8 @@
 <li><a class="reference internal" href="#id11">2-4. メンバーの利用状況を確認/変更する</a></li>
 <li><a class="reference internal" href="#id12">2-5. メンバーの交通費申請を承認する</a></li>
 <li><a class="reference internal" href="#id13">2-6. メンバーの交通費利用者設定を確認する</a></li>
-<li><a class="reference internal" href="#id14">2-7. 交通費のデータを出力する</a></li>
+<li><a class="reference internal" href="#id14">2-7. メンバーの設定権限を変更する</a></li>
+<li><a class="reference internal" href="#id15">2-8. 交通費のデータを出力する</a></li>
 </ul>
 </li>
 </ul>
@@ -451,7 +483,7 @@
         <li class="right" >
           <a href="chap1.html" title="1. はじめに"
              >前へ</a> &nbsp; &nbsp;</li>
-    <li><a href="index.html">afc 1.0.0 ドキュメント</a> &raquo;</li>
+    <li><a href="index.html">raku 1.0.0 ドキュメント</a> &raquo;</li>
  
       </ul>
     </div>
