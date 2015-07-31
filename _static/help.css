@@ -22,7 +22,7 @@ dt[id^='term'] {
     font-size: 100%;
     font-style:bold;
 }
-img.sp { max-height: 200px;}
+img.sp { max-height: 300px;}
 .related li:last-child {
     visibility: hidden;
 }
