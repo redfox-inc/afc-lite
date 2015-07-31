@@ -20,14 +20,14 @@
 
 - 交通費自動計算の流れ
 
-  .. only:: latexpdfja
+  .. only:: latex
 
     |auto_route_img|
 
   .. only:: html
 
-    ..image:: /img/1-1.jpg
-    :alt: 全体の流れ
+    .. image::  /img/1-1.jpg
+       :alt: 全体の流れ
      
   .. list-table:: 上記の詳細説明
    :widths: 15, 100
