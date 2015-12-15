@@ -3,7 +3,7 @@
   :alt: アプリ初期画面グループ参加
 
 .. |app_start_login_img| image:: /img/app_start_login.jpg
-  :scale: 140%
+  :scale: 100%
   :alt: アプリ初期画面ログイン
 
 .. |app_start_setting1_img| image:: /img/app_setting1.jpg
