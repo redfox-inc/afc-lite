@@ -38,10 +38,7 @@ img.sp { max-height: 300px;}
     margin: 2px 5px;
     text-decoration: underline;
 }
-div.warning {
-  background-color: #ffe4e4;
-  background-image: url("icon-warning.jpg");
-}
+
 
 table.easytable {
   width: auto;

@@ -1,8 +1,10 @@
 
 .. |app_confirm_img| image:: /img/user_confirm.jpg
+  :scale: 50%
   :alt: アプリ初期確認
 
-.. |app_historyadd_img| image:: /img/user_start.jpg
+.. |app_historyadd_img| image:: /img/user_start.png
+  :scale: 50%
   :alt: アプリ打刻確認
 
 

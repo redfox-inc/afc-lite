@@ -14,7 +14,7 @@
 .. |app_add_route_img| image:: /img/add_route.jpg
   :alt: スマホサイトでの経路の追加
 
-.. |login_img| image:: /img/login.jpg
+.. |login_img| image:: /img/login3.JPG
   :scale: 40%
   :alt: ログイン画面
 
